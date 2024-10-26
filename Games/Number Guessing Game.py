@@ -1,6 +1,6 @@
 import random
 
-chances = 7
+chances = 10
 numrange = 1000
 num2guess = random.randrange(numrange)
 
@@ -26,4 +26,4 @@ while chances > 0:
   if chances == 0:
     print(f"Game Over! It was {num2guess}.")
  except:
-  print("Invalid input.")
+  print("Invalid input.")50

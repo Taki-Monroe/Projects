@@ -26,4 +26,4 @@ while chances > 0:
   if chances == 0:
     print(f"Game Over! It was {num2guess}.")
  except:
-  print("Invalid input.")50
+  print("Invalid input.")

@@ -1,14 +1,14 @@
 import random
 
 chances = 7
-numrange = 100
+numrange = 1000
 num2guess = random.randrange(numrange)
 
 print(f"Hi! Welcome to number guessing game.\nYou have {chances} chances left to guess. The number is between 0 to {numrange-1}." )
 
 while chances > 0:
  try:
-  user_guess = int(input(f"What's your guess? {chances} tries left."))
+  user_guess = int(input(f"What's your guess? {chances} tries left. \n"))
   if user_guess == num2guess and chances > 0:
     print(f"Correct, it was {num2guess}.")
     break
